@@ -6,7 +6,7 @@ API_KEY = "AIzaSyCt6Z3auDoe2fg_NErjA7eyTd-NVAxo3qU"
 genai.configure(api_key=API_KEY)
 
 # Load CSV file
-csv_file_path = r"dataset\TnData-.csv"  
+csv_file_path = r"dataset/TnData-.csv"  
 df = pd.read_csv(csv_file_path)
 
 # Convert CSV to a readable string format (for small datasets)
