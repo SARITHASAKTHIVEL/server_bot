@@ -37,7 +37,7 @@ from flask_cors import CORS
 
 
 # Initialize Flask App
-app = Flask(_name_)
+app = Flask(__name__)
 CORS(app)
 
 # Configure API Key
